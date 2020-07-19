@@ -1,0 +1,10 @@
+[package]
+name = "radarsoft-rust"
+version = "0.1.0"
+authors = ["Lukáš 'Radar' Kubíček <kubicek@radarsoft.cz>"]
+edition = "2018"
+
+[dependencies]
+actix-web = "2.0"
+actix-rt = "1.0"
+radarsoft-rust-contacts = { git = "https://github.com/RadarCZ/radarsoft-rust-contacts" }
